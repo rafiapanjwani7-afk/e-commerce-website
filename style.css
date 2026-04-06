@@ -1,0 +1,48 @@
+body {
+  background-color: #d6b98c;
+}
+
+.navbar {
+  margin-bottom: 20px;
+  background-color: #ca902a !important;
+}
+.navbar .navbar-brand, .navbar .btn {
+  color: #fff !important;
+}
+.nav-link{
+    color: #fff;
+}
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card {
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.btn-dark {
+  background-color: #8b5e3c;
+  border: none;
+}
+.btn-dark {
+  transition: 0.3s;
+}
+.btn-dark:hover {
+  background-color: #a16e44;
+}
+.form-control:focus {
+    border-color: #a16e44 !important;
+    box-shadow: 0 0 0 0.2rem #a16e44 !important;
+}
+h1 {
+  letter-spacing: 2px;
+}
