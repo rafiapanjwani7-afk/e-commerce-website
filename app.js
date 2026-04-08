@@ -473,7 +473,7 @@ var allProduct = {
 }
 
 var Productscard = document.getElementById("Productscard");
-function rendersProducts(){
+
 for (var products in allProduct) {
     // console.log(allProduct[products]);
     for (var productCategories in allProduct[products]) {
@@ -500,7 +500,26 @@ for (var products in allProduct) {
         }
     }
 }
-} rendersProducts()
+
 function addToCart() {
-  Swal.fire("Added!", +"allProduct[products][productCategories][productBrands][productItems].name}" + " added to cart", "success");
+    Swal.fire("Added!", +"allProduct[products][productCategories][productBrands][productItems].name}" + " added to cart", "success");
 }
+var productMenu = document.getElementById("productMenu")
+for (var products in allProduct) {
+    // console.log(products);
+    for (var productCategories in allProduct[products]) {
+        // console.log(productCategories);
+        productMenu.innerHTML += `<option value="${productCategories}">${productCategories}</option>`
+    }
+}
+var brandMenu = document.getElementById("brandMenu")
+
+function productChange(){
+    brandMenu.innerHTML= `<option value="">select brand</option>`
+      for (var Brands in allProduct[products.value][productCategories.value]){
+        console.log(Brands);
+         brandMenu.innerHTML= `<option value="${Brands}">${Brands}</option>`
+        
+      }
+          
+}   

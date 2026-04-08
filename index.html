@@ -31,11 +31,11 @@
             </li>
       </ul>
       <form class="d-flex" role="search">
-         <select onchange="productChange()" id="productMenu"
+         <select  id="productMenu"
                 class="form-select me-2"
                 aria-label="Default select example"
               >
-                <option selected>Select Product</option>
+                <option value="" onchange="productChange() ">Select Product</option>
                 
               </select>
               <select
@@ -43,7 +43,7 @@
                 class="form-select me-2"
                 aria-label="Default select example"
               >
-                <option selected>Select Brand</option>
+                <option value="" onclick="">Select Brand</option>
                 
               </select>
         <button class="btn btn-outline-success btn-dark" type="submit" onclick="filterProduct()">Search</button>
@@ -57,10 +57,10 @@
       <img src="image/banner 3.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="../image/banner.webp" class="d-block w-100" alt="...">
+      <img src="image/banner.webp" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="../image/banner 1.webp" class="d-block w-100 " alt="...">
+      <img src="image/banner 1.webp" class="d-block w-100 " alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
