@@ -1,127 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>e-commerce website</title>
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Beauty Store</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-     <div class="container-fuild">
-        <nav class="navbar navbar-expand-lg fixed-top">
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg fixed-top bg-dark navbar-dark shadow">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">beauty products</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+    <a class="navbar-brand" href="#">Beauty Products</a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto text-center mb-2 mb-lg-0 ">
-            <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="about.html">about</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="product.html">Products</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact Us</a>
-            </li>
+
+    <div class="collapse navbar-collapse" id="nav">
+
+      <ul class="navbar-nav ms-auto text-center">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="product.html">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
       </ul>
-      <form class="d-flex" role="search">
-         <select  id="productMenu"
-                class="form-select me-2"
-                aria-label="Default select example"
-              >
-                <option value="" onchange="productChange() ">Select Product</option>
-                
-              </select>
-              <select
-              id="brandMenu"
-                class="form-select me-2"
-                aria-label="Default select example"
-              >
-                <option value="" onclick="">Select Brand</option>
-                
-              </select>
-        <button class="btn btn-outline-success btn-dark" type="submit" onclick="filterProduct()">Search</button>
-      </form>
+
+      <!-- CART -->
+      <a href="#" class="btn btn-light ms-lg-3 position-relative">
+        <i class="bi bi-cart-fill text-danger"></i>
+        <span id="cartCount" class="position-absolute top-0 start-100 translate-middle badge bg-danger">0</span>
+      </a>
+
     </div>
   </div>
 </nav>
- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+
+<!-- HERO SECTION -->
+
+
+<!-- CAROUSEL -->
+<div id="carouselExample" class="carousel slide mt-5" data-bs-ride="carousel">
+
   <div class="carousel-inner">
+
     <div class="carousel-item active">
-      <img src="image/banner 3.jpg" class="d-block w-100" alt="...">
+      <img src="image/banner2.avif" class="d-block w-100" alt="">
+    </div>
+
+    <div class="carousel-item">
+      <img src="image/CAROUSEL 2.webp" class="d-block w-100" alt="">
+    </div>
+
+    <div class="carousel-item">
+      <img src="image/CAROUSEL 1.gif" class="d-block w-100" alt="">
+    </div>
+    
+    <div class="carousel-item">
+      <img src="image/CAROUSEL.gif" class="d-block w-100" alt="">
     </div>
     <div class="carousel-item">
-      <img src="image/banner.webp" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="image/banner 1.webp" class="d-block w-100 " alt="...">
+      <img src="image/banner.webp" class="d-block w-100" alt="">
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
+
+  <button class="carousel-control-prev" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
+
+  <button class="carousel-control-next" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
   </button>
+
 </div>
-     <div class="container">
-         
-         <div id="Productscard" class="row mt-2 row-cols-1 row-cols-md-3 g-4">
-       
-       
-        
-      </div>
-     </div>
+<div class="container mt-5 pt-5 text-center">
 
+  <h1 class="fw-bold text-danger">Welcome to Beauty Store 💄</h1>
+  <p class="lead">Skincare • Makeup • Haircare • Fashion</p>
 
-<footer class="footer mt-5">
+  <a href="product.html" class="btn btn-dark btn-lg mt-2">
+    Shop Now
+  </a>
+
+</div>
+
+<!-- FEATURES -->
+<div class="container mt-5">
+
+  <div class="row text-center">
+
+    <div class="col-md-4">
+      <i class="bi bi-truck fs-1 text-danger"></i>
+      <h5>Fast Delivery</h5>
+      <p>Quick delivery all over Pakistan</p>
+    </div>
+
+    <div class="col-md-4">
+      <i class="bi bi-shield-check fs-1 text-danger"></i>
+      <h5>Original Products</h5>
+      <p>100% authentic beauty products</p>
+    </div>
+
+    <div class="col-md-4">
+      <i class="bi bi-cash-coin fs-1 text-danger"></i>
+      <h5>Best Prices</h5>
+      <p>Affordable & budget friendly</p>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- PRODUCTS SECTION -->
+<!-- <div class="container mt-5">
+
+  <h2 class="text-center mb-4 fw-bold">Trending Products</h2>
+
+  <div id="Productscard" class="row row-cols-1 row-cols-md-3 g-4"></div>
+
+</div> -->
+
+<!-- FOOTER -->
+
+  <footer class="footer bg-dark text-white pt-5 pb-4 mt-5">
+
   <div class="container">
+
     <div class="row text-center text-md-start">
 
-      <div class="col-md-4 mb-3">
-        <h5>My Store</h5>
-        <p>Your one-stop shop for beauty, fashion & more.</p>
+      <!-- BRAND -->
+      <div class="col-md-4 mb-4">
+        <h4 class="fw-bold text-danger">Beauty Store</h4>
+        <p>
+          Your one-stop shop for beauty, skincare, makeup & fashion products.
+          We provide 100% original and affordable items.
+        </p>
+
+        <!-- SOCIAL ICONS -->
+        <div class="d-flex justify-content-center justify-content-md-start gap-3 mt-3">
+          <a href="#" class="text-white fs-5"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-white fs-5"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-white fs-5"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="text-white fs-5"><i class="bi bi-whatsapp"></i></a>
+        </div>
       </div>
 
-      <div class="col-md-4 mb-3">
-        <h5>Quick Links</h5>
-        <ul class="list-unstyled">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">Cart</a></li>
+      <!-- QUICK LINKS -->
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-bold">Quick Links</h5>
+
+        <ul class="list-unstyled mt-3">
+          <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+          <li><a href="about.html" class="text-white text-decoration-none">About</a></li>
+          <li><a href="product.html" class="text-white text-decoration-none">Products</a></li>
+          <li><a href="contact.html" class="text-white text-decoration-none">Contact</a></li>
         </ul>
       </div>
 
-      <div class="col-md-4 mb-3">
-        <h5>Contact</h5>
-        <p>Email: info@mystore.com</p>
-        <p>Phone: +92 300 1234567</p>
+      <!-- CONTACT -->
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-bold">Contact Info</h5>
+
+        <p class="mt-3">
+          <i class="bi bi-geo-alt-fill text-danger"></i> Karachi, Pakistan
+        </p>
+
+        <p>
+          <i class="bi bi-telephone-fill text-danger"></i> +92 300 1234567
+        </p>
+
+        <p>
+          <i class="bi bi-envelope-fill text-danger"></i> info@beautystore.com
+        </p>
       </div>
 
     </div>
 
-    <hr>
+    <hr class="border-light">
 
     <div class="text-center">
-      <p class="mb-0">© 2026 My Store | All Rights Reserved</p>
+      <p class="mb-0">© 2026 Beauty Store | All Rights Reserved 💖</p>
     </div>
+
   </div>
+
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-snow@3/tsparticles.preset.snow.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
+<!-- SCRIPTS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="app.js"></script>
 
-      
 </body>
 </html>
