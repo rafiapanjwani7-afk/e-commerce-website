@@ -86,6 +86,7 @@ h1, h2, h3 {
   background: linear-gradient(45deg, #8b5e3c, #d4af37);
   border: none;
   transition: 0.3s;
+  color: #fff7ed;
 }
 
 .btn-cart:hover {
@@ -105,19 +106,68 @@ h1, h2, h3 {
 }
 
 /* ===== SIDEBAR ===== */
-.sidebar-card {
+.sidebar {
   background: #fff;
-  border-radius: 18px;
+  border-radius: 20px;
   box-shadow: 0 8px 25px rgba(0,0,0,0.08);
-  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+  padding: 25px;
   position: sticky;
   top: 90px;
+  transition: 0.3s ease;
+  background-color: #f5e6cc;
+  border: 1px solid rgba(212,175,55,0.3);
+}
+.sidebar:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
 }
 
-.sidebar-card h4 {
+.sidebar h5 {
   font-weight: 600;
   border-left: 4px solid #d4af37;
   padding-left: 10px;
+  color: #3d2c1e;
+}
+.sidebar select {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid #d4af37;
+  background: #fff;
+  color: #3d2c1e;
+  margin-bottom: 12px;
+  transition: 0.3s;
+}
+
+.sidebar select:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(212,175,55,0.4);
+  border-color: #8b5e3c;
+}
+
+/* buttons inside sidebar */
+.sidebar button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(45deg, #3d2c1e, #d4af37);
+  color: #fff;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.sidebar button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(45deg, #8b5e3c, #f0c75e);
+}
+
+/* labels */
+.sidebar label {
+  font-size: 14px;
+  color: #3d2c1e;
+  font-weight: 500;
 }
 
 
@@ -151,7 +201,7 @@ h1, h2, h3 {
     height: 50vh;
   }
 
-  .sidebar-card {
+  .sidebar {
     position: relative;
     top: 0;
   }

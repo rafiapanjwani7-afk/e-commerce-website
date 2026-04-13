@@ -360,6 +360,22 @@ var allProduct = {
                     description: "Noise-cancelling wireless headphones.",
                     src: "https://m.media-amazon.com/images/I/71spor3oGhL._AC_SL1500_.jpg"
                 }
+            },
+            devices: {
+
+                laptop: {
+                    name: "Dell Inspiron Laptop",
+                    price: 85000,
+                    description: "High performance laptop for work and study.",
+                    src: "https://winblogs.thesourcemediaassets.com/2016/09/Dell-Sept-14.jpg"
+                },
+
+                mobile: {
+                    name: "Samsung Galaxy Smartphone",
+                    price: 45000,
+                    description: "Latest Android smartphone with high camera quality.",
+                    src: "https://www.sammobile.com/wp-content/uploads/2025/01/Samsung-Galaxy-S25-Ultra-Colors-Hands-On-Rear-Design.jpg"
+                }
             }
         },
 
@@ -467,6 +483,131 @@ var allProduct = {
                     description: "Premium quality ring with a shiny finish.",
                     src: "https://threadcurve.com/wp-content/uploads/2021/03/types-of-rings-Mar192021-12-min-728x728.jpg"
                 }
+            },
+            hairAccessories: {
+
+                hairBand: {
+                    name: "Stylish Hair Band",
+                    price: 500,
+                    description: "Elegant hair band for daily and party use.",
+                    src: "https://m.media-amazon.com/images/I/710sasVUYOL._SL1500_.jpg"
+                },
+
+                hairClips: {
+                    name: "Fashion Hair Clips Set",
+                    price: 400,
+                    description: "Beautiful colorful clips for stylish look.",
+                    src: "https://m.media-amazon.com/images/I/91b7lLP3n+L._SL1500_.jpg"
+                },
+
+                scrunchies: {
+                    name: "Silk Scrunchies Pack",
+                    price: 300,
+                    description: "Soft silk scrunchies that don’t damage hair.",
+                    src: "https://s.alicdn.com/@sc04/kf/H880331a6f669473d941adc7ae6c132e6K.jpg_720x720q50.jpg"
+                },
+
+                hairPins: {
+                    name: "Designer Hair Pins",
+                    price: 350,
+                    description: "Elegant pins for party hairstyle.",
+                    src: "https://i.etsystatic.com/16100911/r/il/3dde30/1852838742/il_794xN.1852838742_qh95.jpg"
+                }
+
+            }, fashion: {
+
+                sneakers: {
+                    name: "Stylish Sneakers",
+                    price: 4500,
+                    description: "Comfortable and trendy sneakers for daily wear.",
+                    src: "https://www.apetogentleman.com/wp-content/uploads/2024/03/BestNikeSneakerModelMain2.jpg"
+                },
+
+                sunglasses: {
+                    name: "Premium Sunglasses",
+                    price: 2500,
+                    description: "UV protected stylish sunglasses for summer look.",
+                    src: "https://i.pinimg.com/736x/e7/5a/ee/e75aeef015594ad2777a6940ed3459c9.jpg"
+                },
+
+                wallet: {
+                    name: "Leather Wallet",
+                    price: 1800,
+                    description: "Premium leather wallet with multiple card slots.",
+                    src: "https://www.nvlondoncalcutta.com/wp-content/uploads/2019/06/FOIL-WALLET-1024x1024.jpg"
+                },
+
+                belt: {
+                    name: "Classic Leather Belt",
+                    price: 2000,
+                    description: "Durable and stylish belt for formal and casual use.",
+                    src: "https://i5.walmartimages.com/asr/a3078277-5e91-4bd2-8ea4-f89105b63fa5_2.198f40852dd94613a8bf87fd274ce073.jpeg"
+                }
+
+            }
+        },
+        fragrance: {
+
+            perfumes: {
+
+                versace: {
+                    name: "Versace Bright Crystal Perfume",
+                    price: 5500,
+                    description: "Luxury floral fragrance with long-lasting fresh scent.",
+                    src: "https://www.versace.com/on/demandware.static/-/Library-Sites-ver-library/default/dw21563a15/images/quickFilter/FRAGRANCES_QF_EDITORIAL_01.jpg"
+                },
+
+                dior: {
+                    name: "Dior Sauvage Perfume",
+                    price: 12000,
+                    description: "Bold and masculine fragrance with strong lasting power.",
+                    src: "https://img.drz.lazcdn.com/static/bd/p/3b13d1e515c5eba681335084513eede8.jpg_720x720q80.jpg"
+                },
+
+                gucci: {
+                    name: "Gucci Bloom Perfume",
+                    price: 8500,
+                    description: "Elegant floral scent for modern women.",
+                    src: "https://th.bing.com/th/id/R.c91e9bda64ffeca80137b2c8a4116e0b?rik=us%2bO293cSTV%2bIg&pid=ImgRaw&r=0"
+                },
+
+                chanel: {
+                    name: "Chanel Coco Mademoiselle",
+                    price: 15000,
+                    description: "Premium luxury perfume with sweet long-lasting aroma.",
+                    src: "https://tse1.mm.bing.net/th/id/OIP.byUGnDhtYJ9W9jNw_NodeAHaH5?rs=1&pid=ImgDetMain&o=7&rm=3"
+                }
+
+            },
+            bodySpray: {
+
+                nivea: {
+                    name: "Nivea Fresh Body Spray",
+                    price: 1200,
+                    description: "Light and refreshing daily body spray.",
+                    src: "https://megacare.ng/media/image/Nivea-Anti-Perspirant-Body-Spray-200ml.png"
+                },
+
+                axe: {
+                    name: "Axe Dark Temptation",
+                    price: 1500,
+                    description: "Strong masculine body spray with long-lasting fragrance.",
+                    src: "https://i5.walmartimages.com/asr/b1cfa27b-3782-4a90-be01-b71ed1f92fa1.0f1087c9e1b73a75c4581ab0679266fc.jpeg"
+                }
+
+            }, unisex: {
+
+                zara: {
+                    name: "Zara Unisex Perfume",
+                    price: 3000,
+                    description: "Soft and modern fragrance suitable for everyone.",
+                    src: "https://www.banabaana.com/upload/photos/2018/10/02/04/03/fpqvs299e7.jpg"
+                }, ckOne: {
+        name: "Calvin Klein CK One",
+        price: 6500,
+        description: "Fresh citrus unisex fragrance with clean and light scent.",
+        src: "https://tse2.mm.bing.net/th/id/OIP.uNqG2bS0plkyTkHE5ePsAwHaJQ?rs=1&pid=ImgDetMain&o=7&rm=3"
+    }
             }
         }
     }
@@ -500,10 +641,7 @@ for (var products in allProduct) {
         }
     }
 }
-
-function addToCart(productName) {
-    Swal.fire("Added!", productName + " added to cart", "success");
-}
+var allProductsArray = [];
 var Productscard = document.getElementById("Productscard");
 var productMenu = document.getElementById("productMenu");
 var brandMenu = document.getElementById("brandMenu");
@@ -531,6 +669,8 @@ function productChange() {
 
 // CREATE CARD
 function createCard(product) {
+    var index = allProductsArray.length;
+    allProductsArray.push(product);
     return `
     <div class="col-md-4">
         <div class="card h-100 shadow-sm">
@@ -542,7 +682,7 @@ function createCard(product) {
             <div class="card-footer bg-white">
                 <strong>Rs ${product.price}</strong>
                 <button class="btn btn-dark btn-sm w-100 mt-2"
-                    onclick="addToCart('${product.name}')">
+                    onclick="addToCart('${index}')">
                     Add to Cart
                 </button>
             </div>
@@ -553,6 +693,7 @@ function createCard(product) {
 // SHOW ALL PRODUCTS
 function showAllProducts() {
     Productscard.innerHTML = "";
+    allProductsArray = [];
 
     var data = allProduct.beautyProducts;
 
@@ -568,6 +709,7 @@ function showAllProducts() {
 // FILTER PRODUCTS (FIXED)
 function FilteredProducts() {
     Productscard.innerHTML = "";
+    allProductsArray = [];
 
     var selectedCategory = productMenu.value;
     var selectedBrand = brandMenu.value;
@@ -592,23 +734,70 @@ function FilteredProducts() {
         }
     }
 }
+function addToCart(index) {
+    var product = allProductsArray[index];
+    Swal.fire({
+        title: "Confirm Purchase 🛒",
+        html: `
+            <div style="text-align:center">
+                <img src="${product.src}" style="width:150px; height:150px; object-fit:cover; border-radius:10px;">
+                <h4 style="margin-top:10px;">${product.name}</h4>
+                <p>${product.description}</p>
+                <h5 style="color:#ff4081;">Rs ${product.price}</h5>
+                <p>Do you want to buy this product?</p>
+            </div>
+        `,
+        showCancelButton: true,
+        confirmButtonText: "Yes, Buy Now💖",
+        cancelButtonText: "No cancel❌",
+        confirmButtonColor: "#d4af37",
+        cancelButtonColor: "#8b5e3c",
+        background: "#fff7ed",
+        color: "#3d2c1e",
+
+        showClass: {
+            popup: "animate__animated animate__zoomIn"
+        },
+        hideClass: {
+            popup: "animate__animated animate__fadeOut"
+        }
 
 
-// CART ALERT
-function addToCart(name) {
-   
-Swal.fire({
-    title: "💖 Added!",
-    html: `<b>${name}</b> added successfully`,
-    icon: "success",
-    background: "#ffe6f0",
-    confirmButtonColor: "#ff4081",
-    showConfirmButton: false,
-    timer: 2000,
-    toast: true,
-    position: "center"
-});
+    }).then(function (result) {
+
+        if (result.isConfirmed) {
+
+            Swal.fire({
+                title: "🎉 Added to Cart!",
+                html: `
+                    <b style="color:#3d2c1e;">${product.name}</b><br>
+                    <span style="color:#8b5e3c;">Successfully added</span>
+                `,
+                icon: "success",
+                confirmButtonColor: "#d4af37",
+                background: "#f5e6cc",
+                color: "#3d2c1e",
+                timer: 2000,
+                showConfirmButton: false
+            });
+        }
+        else if (result.dismiss === Swal.DismissReason.cancel) {
+
+            Swal.fire({
+                title: "😢 Cancelled",
+                text: "No problem! You can continue shopping 🛍️",
+                icon: "info",
+                confirmButtonColor: "#8b5e3c",
+                background: "#fff7ed",
+                color: "#3d2c1e",
+                timer: 2000,
+                showConfirmButton: false
+            });
+        }
+
+    });
 }
+
 
 // LOAD DEFAULT
 window.onload = showAllProducts;
